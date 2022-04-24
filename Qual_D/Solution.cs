@@ -33,11 +33,12 @@ namespace Qual_D
                         maxChild[node] = Math.Max(ffs[node], children[node].Max(child => maxChild[child]));
                         node = ps[node];
                     }
-                    while(node != 0);                    
+                    while (node != 0);
                 }
 
                 //start processing our roots
                 //
             }
         }
+    }
 }
