@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "1B_B": {
+      "commandName": "Project",
+      "commandLineArgs": "< samplein.txt"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>_1B_A</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="samplein.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="samplein.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
